@@ -54,7 +54,7 @@ crontab -e
 
   ```text
   * */3 * * * python (install_folder_path)/timestamp.py >/dev/null 2>&1
-  # Of cource, you can change frequency yourself
+  # Of course, you can change frequency yourself
   # Example: * */3 * * * python /Users/daiki/.dotfiles/mac_timestamp/timestamp.py >/dev/null 2>&1
   ```
 
