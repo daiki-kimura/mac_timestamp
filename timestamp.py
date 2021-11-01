@@ -9,7 +9,7 @@ import datetime
 import re
 import csv
 
-TIMESTAMP_FOLDER = '/Users/daiki/Box/MyMemo/timestamp/'  # must be changed
+TIMESTAMP_FOLDER = '/Users/daiki/Library/CloudStorage/Box-Box/MyMemo/timestamp/'  # must be changed
 BORDER_TIME_FOR_DAYS = '03:00:00'
 
 latest_updated_date_filename = 'latest_updated_date.txt'
