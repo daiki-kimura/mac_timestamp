@@ -32,7 +32,7 @@ Set folder path in `timestamp.py` by your-self
 
 ```text
 TIMESTAMP_FOLDER: folder path for timestamp files (must be changed)
-BORDER_TIME_FOR_DAYS: your border time for days (default: '03:00:00')
+BORDER_TIME_FOR_DAYS: your border time for days (default: '04:00:00')
 ```
 
 ### 3. Set schedule
