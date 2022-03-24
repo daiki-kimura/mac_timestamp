@@ -25,9 +25,9 @@ if os.path.exists(TIMESTAMP_FOLDER + latest_updated_date_filename):
         if today_str == latest_data:
             sys.exit(0)
 
-histories = subprocess.check_output(pmset_command, shell=True)
+histories = subprocess.check_output(pmset_command, shell=True).decode('utf-8')
 
-times = re.findall('(\d+-\d+-\d+) (\d+:\d+:\d+) .\d+ ([SW])', histories)
+times = re.findall(r'(\d+-\d+-\d+) (\d+:\d+:\d+) .\d+ ([S|W])', histories)
 
 month_strs = list()
 data = dict()

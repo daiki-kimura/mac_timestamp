@@ -23,14 +23,7 @@ Timestamp for Wake and Sleep on Mac
 
 ```bash
 cd (install_folder_path)
-git clone git@github.com:daiki-kimura/mac_timestamp.git
-```
-
-or
-
-```bash
-cd (install_folder_path)
-wget https://raw.githubusercontent.com/daiki-kimura/mac_timestamp/master/timestamp.py
+git clone https://github.com/daiki-kimura/mac_timestamp.git
 ```
 
 ### 2. Change folder path
@@ -55,15 +48,15 @@ crontab -e
   ```text
   * */3 * * * python (install_folder_path)/timestamp.py >/dev/null 2>&1
   # Of course, you can change frequency yourself
-  # Example: * */3 * * * python /Users/daiki/.dotfiles/mac_timestamp/timestamp.py >/dev/null 2>&1
+  # Example: * */3 * * * python3 /Users/daiki/.dotfiles/mac_timestamp/timestamp.py >/dev/null 2>&1
   ```
 
 ## Environment
 
 Tested on 
 
-- Mac (OSX 10.13.3, High Sierra)
-- Python 2.7.10
+- Mac OS 12.3
+- Python 3.7.9
 
 ## Special thanks
 
